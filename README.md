@@ -7,7 +7,8 @@ i.e Malbore Hosing data (Predicting the house price).
 3. In Decision Tree Regressor model Optimizing the size of the tree (optimized max_leaf_node value) to get better MAE and to make better prediction.
 4. Using Random forest to generate more number of tress and to get optimized MAE model (RandomForestRegressor MODEL).
 5. In RandomForestRegressor model Optimizing the size of the tree (optimized max_leaf_node value) to get better MAE and to make better prediction.
-   # Feature engineering for RandomForestRegressor
+
+ Applying Feature engineering for RandomForestRegressor
 1. Missing values
    6. Dropping columns with missing values and observing the the MAE.
    7. Imputating missing values with median or average value and observing the the MAE.
