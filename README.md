@@ -9,13 +9,19 @@ i.e Malbore Hosing data (Predicting the house price).
 5. In RandomForestRegressor model Optimizing the size of the tree (optimized max_leaf_node value) to get better MAE and to make better prediction.
 
  Applying Feature engineering for RandomForestRegressor
-1. Missing values
+ 
+ **Missing values**
+ 
    6. Dropping columns with missing values and observing the the MAE.
-   7. Imputating missing values with median or average value and observing the the MAE.
-2. categical values
+   7. Imputating missing values with median or average value and observing the the MAE.  
+   
+ **categical values**
+ 
    8. Removing columns containing categorical variables and observing the the MAE.
    9. Ordinal encoding(replacing unique categorical variables with different integer values) and observing the the MAE.
    10. One-hot encoding (Creating columns for each categorical  variables based on cardinality) and observing the the MAE.
+
+ ****
 11. Using Pipeline to simplify the coding and to combine both imputation one-hot-encoding in single model.
 12. Using Cross validation for RandomForestRegressor and observing the the MAE.
 13. Using Gradient boosting with parameter boosting (XGBRegressor model) and observing the the MAE.
