@@ -21,7 +21,7 @@ i.e Malbore Hosing data (Predicting the house price).
    9. Ordinal encoding(replacing unique categorical variables with different integer values) and observing the the MAE.
    10. One-hot encoding (Creating columns for each categorical  variables based on cardinality) and observing the the MAE.
 
- 
+ ****
 11. Using Pipeline to simplify the coding and to combine both imputation one-hot-encoding in single model.
 12. Using Cross validation for RandomForestRegressor and observing the the MAE.
 13. Using Gradient boosting with parameter boosting (XGBRegressor model) and observing the the MAE.
